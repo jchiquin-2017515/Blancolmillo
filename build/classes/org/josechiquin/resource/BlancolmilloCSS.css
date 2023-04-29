@@ -1,0 +1,57 @@
+
+
+.button1{
+    -fx-background-color:  #5a8a90;
+    -fx-background-radius: 30 0 0 30;
+}
+
+.button1:hover{
+    -fx-background-color: #7abbb7;
+    -fx-background-radius: 30 0 0 30;
+}
+
+.button1:pressed{
+    -fx-background-color: #d1c9c2;
+    -fx-background-radius: 30 0 0 30;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+    -fx-background-color:   #344b63;
+    
+}
+.table-view .column-header .label{
+
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER;
+}
+.table-view .cell{
+   -fx-cell-size: 30;
+  -fx-alignment: center-left;
+  -fx-text-fill: #000000;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:  rgb(127, 172, 243);
+ }
+ .table-row-cell:selected .text {
+        -fx-fill : white ;
+ }
+ 
+ 
+ .menu-bar {
+    -fx-background-color: black ;
+    -fx-opacity: 0.5;
+    -fx-border-width: 2.0;
+
+}
+.menu-bar .label {
+    -fx-font-size: 14.0 pt;
+    -fx-font-family: "Bookman Old Style";
+    -fx-text-fill: white;
+    -fx-font-weight: bold; 
+    -fx-padding: 10.0px;
+
+}
